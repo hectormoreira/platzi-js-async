@@ -13,5 +13,8 @@
     "await"
   ],
   "author": "Héctor Hugo Moreira",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }

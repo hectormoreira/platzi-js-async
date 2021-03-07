@@ -6,7 +6,7 @@ rutinas que provee acceso a funciones de un determinado software.
 - **Concurrencia** Cuando dos o más tareas progresan simultáneamente.
 - **Paralelismo**
 Cuando dos o más tareas se ejecutan, literalmente, a la vez, en el mismo instante de tiempo.
-- *Bloqueante*
+- **Bloqueante**
 Una llamada u operación bloqueante no devuelve el control a nuestra aplicación hasta que se ha
 completado. Por tanto el thread queda bloqueado en estado de espera.
 - **Síncrono**
@@ -28,7 +28,7 @@ encarga de liberar aquello que no se necesita.
 Cada vez que nuestro programa recibe una notificación del exterior o de otro contexto distinto al
 de la aplicación, el mensaje se inserta en una cola de mensajes pendientes y se registra su
 callback correspondiente.
-Eventloop o Loop de eventos
+- **Eventloop o Loop de eventos**
 Cuando la pila de llamadas (call stack) se vacía, es decir, no hay nada más que ejecutar, se
 procesan los mensajes de la cola. Con cada ‘tick’ del bucle de eventos, se procesa un nuevo
 mensaje.
@@ -62,3 +62,8 @@ Aplicación de Callbacks, Promesas y Async/Await
 ## Recursos
 - Lista de [APIs públicas](https://github.com/public-apis/public-apis)
 - [Rick y Morty API](https://rickandmortyapi.com/)
+
+## Dependencias
+```sh
+npm install xmlhttprequest --save
+```
