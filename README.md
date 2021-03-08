@@ -67,3 +67,18 @@ Aplicación de Callbacks, Promesas y Async/Await
 ```sh
 npm install xmlhttprequest --save
 ```
+
+## Callbacks Vs Promesas Vs Async/Await
+- **Callbacks** son universales en todos los navegadores
+- Des: Composición compleja llegando al callback hell
+- Flujo poco intuitivo
+- **Promesas** son facilmente enlazables
+- Des: No maneja excepciones solo catch
+- Prospenso a errores si no se retorna el siguiente llamado
+- Requiere un polyfill para funcionar en todos los navegadores, como babel
+- **Async - Await** podemos usar try catch
+- Son más faciles de leer
+- Sintaxis más amigable
+- Esperar a que suceda algo
+- Des: Se debe esperar por cada llamado
+- Se requiere polyfill
